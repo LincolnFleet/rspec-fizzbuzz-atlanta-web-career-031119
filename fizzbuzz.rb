@@ -8,8 +8,6 @@ def fizzbuzz(entry)
   end
   if entry % 5 == 0
     response = response + 'Buzz'
-  elsif response == ''
-    return nil
   end
   print response
   return response
